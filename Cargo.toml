@@ -1,0 +1,15 @@
+[package]
+name = "clap-completion-example"
+version = "0.1.0"
+authors = ["Andrew <andrew.ahlers@gmail.com>"]
+edition = "2018"
+repository = "https://github.com/Shatnerz/clap-completion-example"
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0.31"
+clap = { version = "3.2.10", features = ["derive"] }
+
+[build-dependencies]
+clap = "3.2.10"
+clap_complete = "3.2.3"
